@@ -17,7 +17,7 @@ test_list2 = [-1, -5, -8, 10]
 test_list3 = [23, 45, 67, 56]
 test_list4 = [0, 0, 1, 1]
 
-
+"""
 def check(list_num, val):
     for i in range(len(list_num)):
         for j in range(len(list_num)):
@@ -27,7 +27,7 @@ def check(list_num, val):
                 if list_num[i] + list_num[j] == val:
                     return True
     return False
-
+"""
 
 def check_sum_two(list_num, val):
     """
