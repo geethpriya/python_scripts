@@ -19,6 +19,11 @@ test_list4 = [0, 0, 1, 1]
 
 """
 def check(list_num, val):
+    """
+    :param list_num: list of numbers to check
+    :param val: int value to check against the list
+    :return: bool (True or False)
+    """
     for i in range(len(list_num)):
         for j in range(len(list_num)):
             if i == j:
